@@ -367,12 +367,12 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal; }
 
 .contacts__info {
-  margin-bottom: 100px;
-  text-align: center; }
+  padding-left: 1.875rem;
+  text-align: left; }
   .contacts__info h4 {
     opacity: 0;
-    font-size: 1.375rem;
-    margin-bottom: 3.75rem;
+    font-size: 1.875rem;
+    margin: 3.75rem 0 1.875rem 0;
     animation: anim 1.5s forwards ease 0.5s; }
   .contacts__info p {
     margin-bottom: 0.625rem;
@@ -392,18 +392,20 @@ h1, h2, h3, h4, h5, h6 {
   .form__item {
     padding-right: 1.25rem;
     display: grid;
-    width: 21.5625rem; }
+    width: 14.375rem; }
     .form__item-big {
       grid-column: span 2;
       max-width: 87.5rem; }
       .form__item-big textarea {
         height: 10rem;
-        resize: none; }
+        resize: none;
+        width: 14.375rem;
+        max-width: 14.375rem; }
   .form__label {
     margin-bottom: 0.3125rem;
     font-size: 0.75rem; }
   .form__input {
-    max-width: 14.0625rem;
+    max-width: 15rem;
     margin-bottom: 1rem;
     padding: 0.9375rem;
     background: transparent;
@@ -423,6 +425,8 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase; }
   .form__submit {
     display: block;
+    animation: anim 1.5s forwards ease 2.5s;
+    opacity: 0;
     height: 3rem;
     width: 10rem;
     font-size: 1.125rem;
@@ -433,6 +437,18 @@ h1, h2, h3, h4, h5, h6 {
     .form__submit:hover {
       background: white;
       color: black; }
+
+#nameBlock {
+  animation: anim 1.5s forwards ease 1s;
+  opacity: 0; }
+
+#phoneBlock {
+  animation: anim 1.5s forwards ease 1.5s;
+  opacity: 0; }
+
+#textBlock {
+  animation: anim 1.5s forwards ease 2s;
+  opacity: 0; }
 
 @media (min-width: 900px) {
   .contacts__info {
@@ -450,7 +466,13 @@ h1, h2, h3, h4, h5, h6 {
       height: 10rem;
       resize: none;
       width: 35.8125rem;
-      max-width: 35.8125rem; } }
+      max-width: 35.8125rem; }
+  #phoneBlock {
+    animation: anim 1.5s forwards ease 1s;
+    opacity: 0; }
+  #textBlock {
+    animation: anim 1.5s forwards ease 1.8s;
+    opacity: 0; } }
 
 /*!*******************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/mixins.scss ***!

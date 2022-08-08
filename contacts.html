@@ -51,37 +51,37 @@
 
           <form class="form">
 
-            <div class="form__item">
-              <label for="formName" class="form__label">Name *</label>
+            <div class="form__item" id="nameBlock">
+              <label for="formName" class="form__label">Ім'я *</label>
               <input id="formName" name="name" class="form__input _require">
               <div class="form__error"></div>
             </div>
 
-            <div class="form__item">
-              <label for="formSurname" class="form__label">Surname</label>
+            <!-- <div class="form__item">
+              <label for="formSurname" class="form__label">Прізвище</label>
               <input id="formSurname" name="surname" class="form__input">
               <div class="form__error"></div>
-            </div>
-
+            </div> -->
+<!-- 
             <div class="form__item">
               <label for="formEmail" class="form__label">Email *</label>
               <input id="formEmail" name="email" type="email" class="form__input _require">
               <div class="form__error"></div>
-            </div>
+            </div> -->
 
-            <div class="form__item">
-              <label for="formPhone" class="form__label">Phone *</label>
+            <div class="form__item" id="phoneBlock">
+              <label for="formPhone" class="form__label">Телефон *</label>
               <input id="formPhone" name="phone" type="tel" maxlength="12" class="form__input _require">
               <div class="form__error"></div>
             </div>
 
-            <div class="form__item form__item-big">
-              <label for="formTextarea" class="form__label">Leave us a message...</label>
+            <div class="form__item form__item-big" id="textBlock">
+              <label for="formTextarea" class="form__label">Ваше повідомлення...</label>
               <textarea id="formTextarea" name="textarea" class="form__input"></textarea>
               <div class="form__error"></div>
             </div>
 
-            <button type="submit" class="form__submit">Submit</button>
+            <button type="submit" class="form__submit">Відправити</button>
           </form>
 
           <div class="contacts__info">
