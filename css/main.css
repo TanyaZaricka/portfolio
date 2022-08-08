@@ -1,15 +1,3 @@
-/*!*****************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
-  \*****************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap);
-/*!**********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio.scss ***!
-  \**********************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap);
-/*!*******************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/global.scss ***!
-  \*******************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap);
 /*!******************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/reset.scss ***!
   \******************************************************************************************************************************************/
@@ -74,29 +62,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
-/*!*********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss (1) ***!
-  \*********************************************************************************************************************************************/
-body {
-  font-family: 'EB Garamond', serif;
-  color: white;
-  background-color: black; }
-  body._lock {
-    overflow: hidden; }
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*****************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Bold.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
 
-.container {
-  height: inherit;
-  max-width: 1230px;
-  margin: 0 auto;
-  padding: 0 15px; }
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Light.eot");
+  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
 
-.wrapper {
-  position: relative;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  min-height: 100vh;
-  min-width: 100vw;
-  background: black; }
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Regular.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 .bg {
   background: url("../assets/img/about-me.jpeg") no-repeat;
@@ -107,26 +96,46 @@ body {
   line-height: 1.5;
   opacity: 0;
   animation: anim 1.4s forwards ease .5s;
-  margin-bottom: 9vh;
-  padding-left: 14px;
-  margin-left: 4vw; }
+  margin-bottom: 2.5rem;
+  padding-left: 1.875rem; }
 
 .intro__title {
   margin-top: 21vh;
   margin-bottom: 0; }
 
 .intro__subtitle {
-  margin-left: 4vw;
-  padding-left: 22px;
+  padding-left: 1.875rem;
   font-size: clamp(13.75px, 1.78862vw, 33px);
   text-transform: uppercase;
   letter-spacing: 0.6em;
   opacity: 0;
   animation: anim 1.5s forwards ease 1s; }
 
-/*!**************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio.scss (1) ***!
-  \**************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio.scss ***!
+  \**********************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Bold.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Light.eot");
+  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Regular.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 .portfolio__categories {
   display: grid;
   grid-template-columns: repeat(auto-fit, 18.125rem);
@@ -173,8 +182,7 @@ body {
   align-items: center;
   justify-items: center;
   color: white;
-  font-size: 1.875rem;
-  font-family: HelveticaRegular; }
+  font-size: 1.875rem; }
 
 .anim__wrapper1 {
   position: absolute;
@@ -240,8 +248,7 @@ body {
 .about__biography {
   max-width: 500px; }
   .about__biography-text {
-    margin-left: 4vw;
-    padding-left: 14px;
+    padding-left: 1.875rem;
     text-align: start;
     line-height: 2rem;
     font-size: 1rem; }
@@ -262,10 +269,10 @@ body {
 
 .slider {
   padding: 2rem 2rem 0 2rem;
-  min-height: 400px;
+  min-height: 25rem;
   display: grid; }
   .slider__wrapper {
-    max-width: 500px;
+    max-width: 31.25rem;
     height: inherit;
     position: relative;
     opacity: 0;
@@ -284,8 +291,8 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 5;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
     opacity: 0;
     animation: fade 2s forwards ease 2s; }
@@ -337,64 +344,163 @@ body {
 /*!*********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/contacts.scss ***!
   \*********************************************************************************************************************************************/
-.contacts {
-  margin-top: 35vh; }
-  .contacts__info {
-    text-align: center; }
-    .contacts__info h2 {
-      margin-bottom: 5rem;
-      font-size: 6rem;
+@charset "UTF-8";
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Bold.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Light.eot");
+  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Regular.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.contacts__info {
+  margin-bottom: 100px;
+  text-align: center; }
+  .contacts__info h4 {
+    opacity: 0;
+    font-size: 1.375rem;
+    margin-bottom: 3.75rem;
+    animation: anim 1.5s forwards ease 0.5s; }
+  .contacts__info p {
+    margin-bottom: 0.625rem;
+    font-size: 1.125rem; }
+    .contacts__info p:nth-child(2) {
       opacity: 0;
-      animation: anim 1.5s forwards ease .5s; }
-    .contacts__info p {
-      margin-bottom: 4.5rem;
-      font-size: 1.6rem; }
-      .contacts__info p:nth-child(2) {
-        opacity: 0;
-        animation: anim 1.5s forwards ease 1s; }
-      .contacts__info p:nth-child(3) {
-        opacity: 0;
-        animation: anim 1.5s forwards ease 1.5s; }
+      animation: anim 1.5s forwards ease 1s; }
+    .contacts__info p:nth-child(3) {
+      opacity: 0;
+      animation: anim 1.5s forwards ease 1.5s; }
 
 .form {
-  margin: -1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: auto; }
+  display: block;
+  padding: 0 30px;
+  max-width: 43.75rem;
+  justify-items: start; }
   .form__item {
-    margin: 1rem;
-    display: grid; }
+    padding-right: 1.25rem;
+    display: grid;
+    width: 21.5625rem; }
     .form__item-big {
-      grid-column: span 2; }
-      .form__item-big textArea {
-        height: 10rem; }
-  .form__lable {
-    margin-bottom: 2rem; }
+      grid-column: span 2;
+      max-width: 87.5rem; }
+      .form__item-big textarea {
+        height: 10rem;
+        resize: none; }
+  .form__label {
+    margin-bottom: 0.3125rem;
+    font-size: 0.75rem; }
   .form__input {
-    margin-bottom: 5rem;
-    padding: .5rem 0 .5rem 2rem;
-    height: 6rem;
+    max-width: 14.0625rem;
+    margin-bottom: 1rem;
+    padding: 0.9375rem;
     background: transparent;
+    border: 2px solid transparent;
     border-bottom: 2px solid white;
     color: white;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    transition: all .5s ease; }
+    .form__input._error {
+      background: rgba(250, 47, 61, 0.4);
+      border: 2px solid #ff4040; }
+    .form__input:focus:not(.form__input-error) {
+      border: 2px solid white; }
+  .form__error {
+    height: 20px;
+    color: red;
+    text-transform: uppercase; }
+  .form__submit {
+    display: block;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.125rem;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all .5s ease; }
+    .form__submit:hover {
+      background: white;
+      color: black; }
 
-@media (min-width: 90rem) {
-  .contacts__container {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: 1fr 1fr; }
+@media (min-width: 900px) {
   .contacts__info {
-    margin-right: 10rem;
-    text-align: center; } }
+    text-align: start; }
+  .contacts__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto; }
+    .form__submit {
+      justify-self: start; }
+    .form__item-big textarea {
+      height: 10rem;
+      resize: none;
+      width: 35.8125rem;
+      max-width: 35.8125rem; } }
 
 /*!*******************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/mixins.scss ***!
   \*******************************************************************************************************************************************/
 
-/*!***********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/global.scss (1) ***!
-  \***********************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/global.scss ***!
+  \*******************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Bold.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Light.eot");
+  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Regular.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'OceanwideStd';
+  color: white;
+  font-weight: normal;
+  background-color: black; }
+  body._lock {
+    overflow: hidden; }
+
+.container {
+  height: inherit;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+  min-width: 100vw; }
+
 .header {
   position: absolute;
   top: 0;
@@ -465,7 +571,8 @@ body {
     transition: all 1s ease; }
 
 .nav__link {
-  position: relative; }
+  position: relative;
+  transition: all 0.4s ease; }
   .nav__link:after {
     content: '';
     display: block;
@@ -476,6 +583,8 @@ body {
     left: 50%;
     background-color: white;
     transition: all 0.4s ease; }
+  .nav__link:hover {
+    color: #F2D5A0; }
   .nav__link:hover:after {
     width: 100%;
     left: 0; }
@@ -519,7 +628,7 @@ body {
     opacity: 0; } }
 
 section {
-  margin-top: 20vh; }
+  margin-top: 10rem; }
 
 .footer {
   margin: 2.5rem 0; }
@@ -530,4 +639,258 @@ section {
   .footer__copyright {
     font-size: 0.875rem;
     line-height: 1.3; }
+
+/*!******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/admin.scss ***!
+  \******************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Bold.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Light.eot");
+  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Regular.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.bg__color {
+  background-color: #1f1f1f;
+  min-height: 100vh; }
+
+.item {
+  margin-top: 0.0625rem;
+  grid-template-columns: min-content 5fr;
+  padding: 1.0625rem 1.25rem;
+  cursor: pointer;
+  display: flex; }
+  .item__icon {
+    min-width: 1rem;
+    display: block;
+    left: 0;
+    height: 1rem;
+    width: 1rem; }
+  .item span[data-categorie="main"] {
+    background: url("../assets/img/main-icon.svg") no-repeat; }
+  .item span[data-categorie="portfolio"] {
+    background: url("../assets/img/portfolio-icon.svg") no-repeat; }
+  .item span[data-categorie="about"] {
+    background: url("../assets/img/about-icon.svg") no-repeat; }
+  .item span[data-categorie="contacts"] {
+    background: url("../assets/img/contacts-icon.svg") no-repeat; }
+  .item span[data-categorie="messages"] {
+    background: url("../assets/img/message-icon.svg") no-repeat; }
+  .item span[data-categorie="statistic"] {
+    background: url("../assets/img/statistic-icon.svg") no-repeat; }
+  .item span[data-categorie="notifications"] {
+    background: url("../assets/img/notifications-icon.svg") no-repeat; }
+  .item._active {
+    background-color: #35cda7;
+    border: 1px solid #35cda7;
+    border-radius: 18px; }
+  .item-name {
+    min-width: 6.3125rem;
+    position: relative;
+    padding-left: 1.25rem;
+    transform: translateY(10%);
+    display: none;
+    opacity: 0; }
+
+.panel::-webkit-scrollbar {
+  display: none; }
+
+.panel__intro {
+  display: grid;
+  justify-content: center; }
+  .panel__intro-title {
+    min-width: 11.25rem;
+    font-size: 1.5rem;
+    padding-left: 1.25rem;
+    padding-top: 0.125rem;
+    display: none; }
+  .panel__intro-button {
+    justify-self: end;
+    background: url("../assets/img/arrow-show.svg") 50% no-repeat; }
+
+.panel__wrapper {
+  margin-top: 2.5rem; }
+
+.pages {
+  margin-bottom: 1.8em; }
+
+.account {
+  margin: 3.75rem auto 1.875rem auto;
+  display: flex;
+  justify-content: center; }
+  .account__avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: none; }
+  .account__button {
+    background: url("../assets/img/logout-icon.svg") 50% no-repeat; }
+  .account .avatar {
+    place-self: center;
+    padding-left: 1.25rem; }
+  .account__name {
+    padding-left: 2.1875rem;
+    font-size: 0.875rem;
+    display: none; }
+
+.admin__button {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(58, 58, 58, 0.5);
+  border-radius: 0.9375rem;
+  transition: all 0.4s; }
+  .admin__button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #35cda7; }
+
+.subtitle__categorie {
+  color: #3f3f3f;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding-left: 1.25rem;
+  margin-bottom: 0.9em;
+  opacity: 0; }
+
+.other__item {
+  color: #3f3f3f;
+  cursor: default; }
+
+.panel__inner {
+  padding-left: 1.25rem; }
+
+.admin {
+  margin-top: 0; }
+  .admin__panel {
+    position: fixed;
+    width: 6.875rem;
+    overflow: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-right: 1px solid rgba(58, 58, 58, 0.5);
+    padding-top: 4.375rem;
+    padding-right: 1.875rem;
+    transition: all 0.5s ease; }
+    .admin__panel._active {
+      width: 18.125rem;
+      margin: 0 auto; }
+    .admin__panel._active .panel__intro-button {
+      background: url("../assets/img/arrow-hide.svg") 50% no-repeat;
+      background-color: rgba(58, 58, 58, 0.5);
+      transition: all 0.5s ease; }
+    .admin__panel._active .intro {
+      grid-template-columns: min-content 1fr;
+      justify-content: space-between;
+      align-items: center; }
+    .admin__panel._active .item-name {
+      animation: panel__names 0.2s ease 0.1s;
+      animation-fill-mode: forwards;
+      display: block; }
+    .admin__panel._active .panel__intro-title,
+    .admin__panel._active .subtitle__categorie,
+    .admin__panel._active .account__name {
+      display: block;
+      opacity: 1; }
+    .admin__panel._active .account__avatar {
+      display: grid; }
+    .admin__panel._active .account {
+      display: grid;
+      grid-template-columns: min-content 1fr min-content;
+      align-items: center; }
+  .admin__content {
+    margin: 4.25rem 0 0 17.5rem; }
+
+.page__title {
+  font-size: 3.4375rem;
+  font-weight: 600; }
+
+.fields__name {
+  margin: 0 0 0.9375rem 0;
+  color: #949494; }
+
+.fields__item {
+  margin-top: 3.75rem; }
+
+.fields__input {
+  display: inline-block;
+  padding: 0.9375rem;
+  height: 2.5rem;
+  width: 18.75rem;
+  border-radius: 0.9375rem;
+  border: 2px solid #282828;
+  color: white;
+  background: #282828;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 400; }
+
+.fields__input::placeholder {
+  color: silver; }
+
+.fields__input:focus {
+  border: 2px solid rgba(65, 141, 255, 0.6); }
+
+.btn {
+  margin-left: 5px;
+  vertical-align: top;
+  display: inline-block;
+  border-radius: 0.75rem;
+  height: 2.5rem;
+  width: 5.625rem;
+  background: #418dff;
+  color: white;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .4s ease; }
+
+.btn:hover {
+  box-shadow: 0 0 3px #418dff;
+  transform: scale(1.05); }
+
+.file {
+  position: relative; }
+
+#fieldImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+  font-size: 0;
+  cursor: pointer; }
+
+.field__preview {
+  margin-top: 15px;
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px; }
+
+.field__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+@keyframes panel__names {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 

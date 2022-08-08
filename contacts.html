@@ -7,6 +7,7 @@
   <title>Tanya Zaricka</title>
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script defer src="./js/bundle.js"></script><link href="./css/main.css" rel="stylesheet"></head>
 
 <body>
@@ -44,47 +45,52 @@
     </header>
 
     <section class="contacts">
-
       <div class="contacts__container container">
-        <div class="contacts__info">
-          <h2>Contact</h2>
-          <p>Charley Knox Is Represented
-            by United Creatives</p>
-          <p>Email: info@mysite.com
+        <h2 class="contacts__title title">Контакти</h2>
+        <div class="contacts__wrapper">
 
-            Phone: 123-456-7890</p>
+          <form class="form">
+
+            <div class="form__item">
+              <label for="formName" class="form__label">Name *</label>
+              <input id="formName" name="name" class="form__input _require">
+              <div class="form__error"></div>
+            </div>
+
+            <div class="form__item">
+              <label for="formSurname" class="form__label">Surname</label>
+              <input id="formSurname" name="surname" class="form__input">
+              <div class="form__error"></div>
+            </div>
+
+            <div class="form__item">
+              <label for="formEmail" class="form__label">Email *</label>
+              <input id="formEmail" name="email" type="email" class="form__input _require">
+              <div class="form__error"></div>
+            </div>
+
+            <div class="form__item">
+              <label for="formPhone" class="form__label">Phone *</label>
+              <input id="formPhone" name="phone" type="tel" maxlength="12" class="form__input _require">
+              <div class="form__error"></div>
+            </div>
+
+            <div class="form__item form__item-big">
+              <label for="formTextarea" class="form__label">Leave us a message...</label>
+              <textarea id="formTextarea" name="textarea" class="form__input"></textarea>
+              <div class="form__error"></div>
+            </div>
+
+            <button type="submit" class="form__submit">Submit</button>
+          </form>
+
+          <div class="contacts__info">
+            <h4 class="info__title">Таня Зарицька</h4>
+            <p>Email: <a href="mailto:artemlisovik@icloud.com" class="href">info@mysite.com</a></p>
+            <p>Телефон: <a href="tel:0731733357" class="href">123-456-7890</a></p>
+          </div>
+
         </div>
-
-        <form class="form">
-
-          <div class="form__item">
-            <label for="formFirstName" class="form__label">First Name</label>
-            <input id="formFirstName" name="first-name" class="form__input">
-          </div>
-
-          <div class="form__item">
-            <label for="formLastName" class="form__label">Last Name</label>
-            <input id="formLastName" name="last-name" class="form__input">
-          </div>
-
-          <div class="form__item">
-            <label for="formEmail" class="form__label">Email</label>
-            <input id="formEmail" name="email" type="email" class="form__input">
-          </div>
-
-          <div class="form__item">
-            <label for="formPhone" class="form__label">Phone</label>
-            <input id="formPhone" name="phone" type="number" class="form__input">
-          </div>
-
-          <div class="form__item form__item-big">
-            <label for="formTextArea" class="form__label">Leave us a message...</label>
-            <textarea id="formTextArea" name="text-area" class="form__input"></textarea>
-          </div>
-
-          <button class="form__submit">Submit</button>
-
-        </form>
       </div>
     </section>
 

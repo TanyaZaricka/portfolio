@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+<script defer src="./js/bundle.js"></script><link href="./css/main.css" rel="stylesheet"></head>
+
+<body>
+    <div class="wrapper bg__color">
+        <section class="admin">
+            <div class="admin__container container">
+                <div class="admin__wrapper">
+                    <nav class="admin__panel panel">
+                        <div class="panel__inner">
+                            <div class="panel__intro intro">
+                                <h2 class="panel__intro-title">Tanya Zaricka</h2>
+                                <div class="panel__intro-button admin__button"></div>
+                            </div>
+
+                            <div class="panel__wrapper">
+                                <div class="panel__pages pages">
+                                    <h3 class="panel__subtitle subtitle__categorie">Сторінки</h3>
+                                    <div class="pages__item item _active">
+                                        <span class="item__icon" data-categorie="main"></span>
+                                        <span class="item-name">Головна</span>
+                                    </div>
+
+                                    <div class="pages__item item">
+                                        <span class="item__icon" data-categorie="portfolio"></span>
+                                        <span class="item-name">Портфоліо</span>
+                                    </div>
+
+                                    <div class="pages__item item">
+                                        <span class="item__icon" data-categorie="about"></span>
+                                        <span class="item-name">Про мене</span>
+                                    </div>
+
+                                    <div class="pages__item item">
+                                        <span class="item__icon" data-categorie="contacts"></span>
+                                        <span class="item-name">Контакти</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="panel__other other">
+                                    <h3 class="other__subtitle subtitle__categorie">Інше</h3>
+                                    <div class="other__item item _disabled">
+                                        <span class="item__icon" data-categorie="messages"></span>
+                                        <span class="item-name" data-page="main">Повідомлення</span>
+                                    </div>
+
+                                    <div class="other__item item _disabled">
+                                        <span class="item__icon" data-categorie="statistic"></span>
+                                        <span class="item-name" data-page="main">Статистика</span>
+                                    </div>
+
+                                    <div class="other__item item _disabled">
+                                        <span class="item__icon" data-categorie="notifications"></span>
+                                        <span class="item-name" data-page="main">Сповіщення</span>
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="panel__account account">
+                                    <div class="account__avatar avatar">
+                                        <img src="./assets/img/avatar.png" alt="" class="admin__button">
+                                    </div>
+                                    <div class="account__name name">Tanya Z.</div>
+                                    <a href="./index.html" class="account__button admin__button"></a>
+                                </div>
+
+
+                            </div>
+                            <div>
+                    </nav>
+                    <div class="admin__content content">
+
+                        <div class="content__page mainpage">
+
+                            <h3 class="page__title">Головна</h3>
+
+
+                            <div class="fields__item">
+                                <p class="fields__name">Посилання на Instagram:</p>
+                                <input class="fields__input" placeholder="Змінити посилання на інстаграм">
+                                <button disabled class="btn">Update</button>
+                            </div>
+                            <!-- 
+                        <div class="fields__item">
+                            <input class="fields__input" placeholder="Update Subtitle">
+                            <button disabled class="btn">Update</button>
+                        </div> -->
+
+                            <div class="fields__item file">
+                                <p class="fields__name">Фонове зображення:</p>
+                                <label class="fields__input fields__label" for="fieldImage"></label>
+                                <input class="fields__input" accept=".jpg, .png, .gif" id="fieldImage" type="file"
+                                    placeholder="Update Background">
+                                <button class="btn">Update</button>
+                            </div>
+                            <div class="field__preview"></div>
+                        </div>
+
+                        <div class="content__page portfolio">
+
+                            <h3 class="page__title">Портфоліо</h3>
+
+                            <div class="fields__item file">
+                                <p class="fields__name">Додати фото в альбом Portraits</p>
+                                <label class="fields__input fields__label" for="fieldImage"></label>
+                                <input class="fields__input" accept=".jpg, .png, .gif" id="fieldImage" type="file"
+                                    placeholder="Update Background">
+                                <button class="btn">Update</button>
+                            </div>
+                            <div class="field__preview"></div>
+
+                            <div class="fields__item file">
+                                <p class="fields__name">Додати фото в альбом Love Story</p>
+                                <label class="fields__input fields__label" for="fieldImage"></label>
+                                <input class="fields__input" accept=".jpg, .png, .gif" id="fieldImage" type="file"
+                                    placeholder="Update Background">
+                                <button class="btn">Update</button>
+                            </div>
+                            <div class="field__preview"></div>
+
+                            <div class="fields__item file">
+                                <p class="fields__name">Додати фото в альбом Family</p>
+                                <label class="fields__input fields__label" for="fieldImage"></label>
+                                <input class="fields__input" accept=".jpg, .png, .gif" id="fieldImage" type="file"
+                                    placeholder="Update Background">
+                                <button class="btn">Update</button>
+                            </div>
+                            <div class="field__preview"></div>
+
+                            <div class="fields__item file">
+                                <p class="fields__name">Додати фото в альбом Fashion</p>
+                                <label class="fields__input fields__label" for="fieldImage"></label>
+                                <input class="fields__input" accept=".jpg, .png, .gif" id="fieldImage" type="file"
+                                    placeholder="Update Background">
+                                <button class="btn">Update</button>
+                            </div>
+                            <div class="field__preview"></div>
+                        </div>
+
+                        <div class="content__page about">
+
+                            <h3 class="page__title">Про мене</h3>
+
+                            <div class="fields__item">
+                                <p class="fields__name">Додати опис (1-й параграф)</p>
+                                <input class="fields__input" placeholder="Змінити посилання на інстаграм">
+                                <button disabled class="btn">Update</button>
+                            </div>
+
+                            <div class="fields__item">
+                                <p class="fields__name">Додати опис (2-й параграф)</p>
+                                <input class="fields__input" placeholder="Змінити посилання на інстаграм">
+                                <button disabled class="btn">Update</button>
+                            </div>
+
+                            <div class="fields__item file">
+                                <p class="fields__name">Додати фото до слайдеру:</p>
+                                <label class="fields__input fields__label" for="fieldImage"></label>
+                                <input class="fields__input" accept=".jpg, .png, .gif" id="fieldImage" type="file"
+                                    placeholder="Update Background">
+                                <button class="btn">Update</button>
+                            </div>
+                            <div class="field__preview"></div>
+                        </div>
+
+                     
+
+
+                        <div class="content__page contacts">
+
+                            <h3 class="page__title">Контакти</h3>
+
+                            <div class="fields__item">
+                                <p class="fields__name">Змінити e-mail адресу</p>
+                                <input class="fields__input" placeholder="Змінити посилання на інстаграм">
+                                <button disabled class="btn">Update</button>
+                            </div>
+
+                            <div class="fields__item">
+                                <p class="fields__name">Змінити номер телефону</p>
+                                <input class="fields__input" placeholder="Змінити посилання на інстаграм">
+                                <button disabled class="btn">Update</button>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="fields">
+
+
+                            </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
