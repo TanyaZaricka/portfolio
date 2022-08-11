@@ -462,8 +462,7 @@ h1, h2, h3, h4, h5, h6 {
     .form__submit {
       justify-self: end;
       margin-bottom: 2.5rem;
-      grid-column: span 2; }
-    .form__submit {
+      grid-column: span 2;
       animation: anim 1.5s forwards ease 1.4s; }
     .form__item-big {
       width: 41.25rem; }
@@ -522,8 +521,7 @@ body {
   height: inherit;
   max-width: 1230px;
   margin: 0 auto;
-  padding: 0 15px;
-  overflow-x: hidden; }
+  padding: 0 15px; }
 
 .wrapper {
   display: grid;
@@ -602,13 +600,14 @@ body {
 
 .nav__link {
   position: relative;
+  display: block;
   transition: all 0.4s ease; }
   .nav__link:after {
     content: '';
     display: block;
     position: absolute;
     width: 0;
-    height: 0.09375rem;
+    height: 0.125rem;
     bottom: -0.625rem;
     left: 50%;
     background-color: white;
