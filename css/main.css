@@ -149,16 +149,23 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 15px 30px 15px;
   overflow: hidden;
   display: block; }
-  .categorie__portraits {
-    background: url("../assets/img/Portraits.jpg") 50% 20%/cover no-repeat;
+  .categorie__element {
     height: 100%;
     transition: all 0.7s;
     position: relative; }
-    .categorie__portraits:hover {
+    .categorie__element.portraits {
+      background: url("../assets/Portfolio__photos/Portraits/1.jpg") 50% 20%/cover no-repeat; }
+    .categorie__element.love-story {
+      background: url("../assets/Portfolio__photos/Love_story/1.jpg") 50% 20%/cover no-repeat; }
+    .categorie__element.family {
+      background: url("../assets/Portfolio__photos/Family/1.jpg") 50% 20%/cover no-repeat; }
+    .categorie__element.fashion {
+      background: url("../assets/Portfolio__photos/Fashion/1.jpg") 50% 20%/cover no-repeat; }
+    .categorie__element:hover {
       transform: scale(1.1); }
-      .categorie__portraits:hover .categories__title {
+      .categorie__element:hover .categories__title {
         display: none; }
-      .categorie__portraits:hover .categories__title-wrapper {
+      .categorie__element:hover .categories__title-wrapper {
         display: none; }
 
 .categories__title-wrapper {
@@ -922,4 +929,46 @@ section {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portraits.scss ***!
+  \**********************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Bold.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Light.eot");
+  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OceanwideStd';
+  src: url("../assets/fonts/OceanwideStd Regular.eot");
+  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.portraits__body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18.125rem);
+  justify-content: center;
+  grid-auto-rows: 300px; }
+
+.portraits__item {
+  margin: 0 0.9375rem 1.875rem 0.9375rem;
+  background: url("assets/Portfolio__photos/Portraits/1.jpg") 50% 40%/cover no-repeat; }
+
+.portraits__item:nth-child(4n+1) {
+  grid-row: span 2;
+  grid-column: span 2; }
+
+.portraits__item:nth-child(3n+3) {
+  grid-row: span 2; }
 
