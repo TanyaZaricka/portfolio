@@ -972,3 +972,8 @@ section {
 .portfolio_categorie__item:nth-child(3n+3) {
   grid-row: span 2; }
 
+@media (max-width: 38.125rem) {
+  .portfolio_categorie__item:nth-child(6n+1) {
+    grid-row: span 2;
+    grid-column: span 1; } }
+
