@@ -957,14 +957,15 @@ section {
 
 .portfolio_categorie__body {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: center;
-  grid-auto-rows: 20.625rem;
-  gap: 0.9375rem; }
+  grid-auto-rows: 18.75rem;
+  gap: 2.5rem; }
 
 @media (max-width: 25.9375rem) {
   .portfolio_categorie .portfolio_categorie__body {
-    grid-auto-rows: 6.25rem; } }
+    grid-auto-rows: 6.25rem;
+    gap: 0.625rem; } }
 
 .portfolio_categorie__item {
   margin: 0;
@@ -972,19 +973,11 @@ section {
   grid-row: span 2;
   grid-column: span 2; }
 
-.portfolio_categorie__item:nth-child(6n+2) {
-  grid-row: span 1;
-  grid-column: span 1; }
+.portfolio_categorie__item:nth-child(4n+2) {
+  grid-row: span 2;
+  grid-column: span 3; }
 
-.portfolio_categorie__item:nth-child(6n+3) {
-  grid-row: span 1;
-  grid-column: span 1; }
-
-.portfolio_categorie__item:nth-child(6n+6) {
-  grid-row: span 1;
-  grid-column: span 1; }
-
-.portfolio_categorie__item:nth-child(7n+7) {
-  grid-row: span 1;
-  grid-column: span 1; }
+.portfolio_categorie__item:nth-child(4n+3) {
+  grid-row: span 2;
+  grid-column: span 3; }
 
