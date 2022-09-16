@@ -1,3 +1,27 @@
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*****************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio.scss ***!
+  \**********************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/contacts.scss ***!
+  \*********************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+/*!*******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/global.scss ***!
+  \*******************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+/*!******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/admin.scss ***!
+  \******************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio_categories.scss ***!
+  \*********************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900);
 /*!******************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/reset.scss ***!
   \******************************************************************************************************************************************/
@@ -62,37 +86,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit; }
 
-/*!*****************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
-  \*****************************************************************************************************************************************/
-@charset "UTF-8";
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Bold.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Light.eot");
-  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Regular.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+/*!*********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss (1) ***!
+  \*********************************************************************************************************************************************/
 .bg {
   background: url("../assets/img/about-me.jpeg") no-repeat;
   background-size: cover; }
 
 .title {
-  font-size: clamp(39.375px, 5.12195vw, 94.5px);
+  font-size: clamp(31.25px, 4.06504vw, 75px);
   line-height: 1.5;
   opacity: 0;
   animation: anim 1.4s forwards ease 0.5s;
@@ -111,36 +113,14 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   animation: anim 1.5s forwards ease 1s; }
 
-/*!**********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio.scss ***!
-  \**********************************************************************************************************************************************/
-@charset "UTF-8";
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Bold.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Light.eot");
-  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Regular.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio.scss (1) ***!
+  \**************************************************************************************************************************************************/
 .portfolio__categories {
   display: grid;
   grid-template-columns: repeat(auto-fit, 18.125rem);
   justify-content: center;
-  grid-auto-rows: clamp(290px, 35vw, 800px);
+  grid-auto-rows: 28.125rem;
   margin: 0 -15px 0 -15px; }
   .portfolio__categories a {
     display: block; }
@@ -158,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     .categorie__element.love-story {
       background: url("../assets/Portfolio__photos/Love_story/1.webp") 50% 20%/cover no-repeat; }
     .categorie__element.family {
-      background: url("../assets/Portfolio__photos/Family/1.webp") 50% 20%/cover no-repeat; }
+      background: url("../assets/Portfolio__photos/Family/family_8.webp") 50% 20%/cover no-repeat; }
     .categorie__element.fashion {
       background: url("../assets/Portfolio__photos/Fashion/1.webp") 50% 20%/cover no-repeat; }
     .categorie__element:hover {
@@ -189,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-items: center;
   color: white;
-  font-size: 1.875rem; }
+  font-size: 1.125rem; }
 
 .anim__wrapper1 {
   position: absolute;
@@ -252,7 +232,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 1.875rem;
     text-align: start;
     line-height: 2rem;
-    font-size: 1rem; }
+    font-size: 0.875rem;
+    letter-spacing: 0.125rem; }
     .about__biography-text p {
       margin-bottom: 2rem; }
       .about__biography-text p:nth-child(1) {
@@ -348,31 +329,9 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     opacity: 0; } }
 
-/*!*********************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/contacts.scss ***!
-  \*********************************************************************************************************************************************/
-@charset "UTF-8";
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Bold.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Light.eot");
-  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Regular.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+/*!*************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/contacts.scss (1) ***!
+  \*************************************************************************************************************************************************/
 .contacts__info {
   margin-bottom: 5rem;
   padding-left: 1.875rem;
@@ -383,8 +342,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0rem 0 1.875rem 0;
     animation: anim 1.5s forwards ease 1.1s; }
   .contacts__info p {
-    margin-bottom: 0.625rem;
-    font-size: 1rem; }
+    margin-bottom: 0.9375rem;
+    font-size: 0.75rem;
+    position: relative; }
+    .contacts__info p a {
+      padding-left: 0.3125rem;
+      padding-bottom: 0.1875rem;
+      border-bottom: 0.03125rem solid rgba(255, 255, 255, 0.6);
+      display: inline-block; }
     .contacts__info p:nth-child(2) {
       opacity: 0;
       animation: anim 1.5s forwards ease 1.4s; }
@@ -395,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 .form {
   display: block;
   padding: 0 30px;
-  max-width: 43.75rem;
+  width: 100%;
   justify-items: start; }
   .form__item {
     padding-right: 1.25rem;
@@ -410,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.3125rem;
     font-size: 0.75rem; }
   .form__input {
-    width: 15rem;
+    width: 100%;
     margin-bottom: 1rem;
     padding: 0.9375rem;
     background: transparent;
@@ -455,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: anim 1.1s forwards ease 2.6s;
   opacity: 0; }
 
-@media (min-width: 900px) {
+@media (min-width: 1125px) {
   .contacts__info {
     text-align: start; }
   .contacts__wrapper {
@@ -487,39 +452,24 @@ h1, h2, h3, h4, h5, h6 {
     animation: anim 1.5s forwards ease 1.4s;
     opacity: 0; } }
 
+@media (max-width: 31.25rem) {
+  .contacts__email {
+    display: none; } }
+
 /*!*******************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/mixins.scss ***!
   \*******************************************************************************************************************************************/
 
-/*!*******************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/global.scss ***!
-  \*******************************************************************************************************************************************/
-@charset "UTF-8";
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Bold.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Light.eot");
-  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Regular.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+/*!***********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/global.scss (1) ***!
+  \***********************************************************************************************************************************************/
 body {
-  font-family: 'OceanwideStd';
+  font-size: 0.875rem;
+  font-family: 'Cizen';
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
   color: white;
-  font-weight: normal;
+  font-weight: 400;
   background-color: black; }
   body._lock {
     overflow: hidden; }
@@ -545,7 +495,8 @@ body {
     margin: 3.75rem 0 0 0;
     display: grid;
     grid-template-columns: minmax(2.5rem, 1fr) 1fr;
-    align-items: center; }
+    align-items: center;
+    text-transform: uppercase; }
   .header__wrapper {
     display: none;
     width: 1.875rem;
@@ -600,7 +551,7 @@ body {
   grid-template-columns: repeat(4, 11.25rem);
   justify-items: center;
   justify-content: end;
-  font-size: 1rem; }
+  font-size: 0.6875rem; }
   .nav__list li {
     margin-left: 3.75rem;
     transition: all 1s ease; }
@@ -652,10 +603,11 @@ body {
     .nav__list {
       display: block;
       text-align: center;
-      margin-top: 22vh;
-      font-size: 2.5rem; }
+      margin-top: 22vh; }
       .nav__list li {
-        margin: 0 0 3.75rem 0; }
+        margin: 0 0 3.75rem 0;
+        font-size: clamp(31.25px, 4.06504vw, 75px);
+        display: inline-block; }
   .header__wrapper {
     display: block; }
   .nav__item {
@@ -673,34 +625,12 @@ section {
     justify-content: flex-end;
     align-items: center; }
   .footer__copyright {
-    font-size: 0.875rem;
+    font-size: 0.6875rem;
     line-height: 1.3; }
 
-/*!******************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/admin.scss ***!
-  \******************************************************************************************************************************************/
-@charset "UTF-8";
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Bold.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Light.eot");
-  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Regular.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/admin.scss (1) ***!
+  \**********************************************************************************************************************************************/
 .bg__color {
   background-color: #1f1f1f;
   min-height: 100vh; }
@@ -930,42 +860,15 @@ section {
   100% {
     opacity: 1; } }
 
-/*!*********************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio_categories.scss ***!
-  \*********************************************************************************************************************************************************/
-@charset "UTF-8";
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Bold.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Bold.woff") format("woff"), url("../assets/fonts/OceanwideStd Bold.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Bold.svg") format("svg");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Light.eot");
-  src: local("вє"), url("../assets/fonts/helvetica_light.woff") format("woff"), url("../assets/fonts/OceanwideStd Light.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Light.svg") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'OceanwideStd';
-  src: url("../assets/fonts/OceanwideStd Regular.eot");
-  src: local("вє"), url("../assets/fonts/OceanwideStd Regular.woff") format("woff"), url("../assets/fonts/OceanwideStd Regular.ttf") format("truetype"), url("../assets/fonts/OceanwideStd Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+/*!*************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/portfolio_categories.scss (1) ***!
+  \*************************************************************************************************************************************************************/
 .portfolio_categorie__body {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, 10rem);
   justify-content: center;
-  grid-auto-rows: 18.75rem;
-  gap: 2.5rem; }
-
-@media (max-width: 25.9375rem) {
-  .portfolio_categorie .portfolio_categorie__body {
-    grid-auto-rows: 6.25rem;
-    gap: 0.625rem; } }
+  grid-auto-rows: 15.625rem;
+  gap: 1.25rem; }
 
 .portfolio_categorie__item {
   margin: 0;
@@ -973,11 +876,11 @@ section {
   grid-row: span 2;
   grid-column: span 2; }
 
-.portfolio_categorie__item:nth-child(4n+2) {
-  grid-row: span 2;
-  grid-column: span 3; }
-
-.portfolio_categorie__item:nth-child(4n+3) {
-  grid-row: span 2;
-  grid-column: span 3; }
+@media (max-width: 26.875rem) {
+  .portfolio_categorie .portfolio_categorie__body {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 6.25rem;
+    gap: 0.625rem; }
+  .portfolio_categorie .portfolio_categorie__item {
+    grid-row: span 3; } }
 
